@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will's Picnic Service - Owensboro, KY</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Raleway', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('background.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 1em;
+    }
+    header img {
+      max-width: 300px;
+    }
+    section {
+      background-color: rgba(255, 255, 255, 0.85);
+      margin: 2em;
+      padding: 2em;
+      border-radius: 12px;
+    }
+    .gallery {
+      display: flex;
+      justify-content: space-around;
+      gap: 1em;
+      margin-top: 1em;
+      flex-wrap: wrap;
+    }
+    .gallery img {
+      width: 30%;
+      border-radius: 8px;
+      min-width: 200px;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      background-color: rgba(255, 255, 255, 0.9);
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="willspicniclogo.png" alt="Will's Picnic Logo" />
+  </header>
+
+  <section id="about">
+    <h1>Welcome to Will's Picnic Service</h1>
+    <p>
+      Imagine showing up to your favorite park in Owensboro, Kentucky — Moreland Park, Ben Hawes, Yellow Creek, Panther Creek, Smothers, or any beautiful green space — and everything is ready: cozy blankets, pillows, candles, and a basket full of delicious food. We bring the picnic to you.
+    </p>
+    <div class="gallery">
+      <img src="park1.png" alt="Park Example 1" />
+      <img src="park2.png" alt="Park Example 2" />
+      <img src="park3.png" alt="Park Example 3" />
+    </div>
+  </section>
+
+  <section id="calendar">
+    <h2>Book a Picnic</h2>
+    <p>Select your preferred date and time below:</p>
+    <!-- Replace with your own calendar embed link -->
+    <iframe src="https://calendar.google.com/calendar/embed?src=yourcalendarid%40group.calendar.google.com&ctz=America%2FChicago"></iframe>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing & Quotes</h2>
+    <ul>
+      <li><strong>Basic Picnic Package:</strong> $75 (1 hour setup + 2 hours use)</li>
+      <li><strong>Deluxe Picnic:</strong> $125 (candles, pillows, upgraded meal)</li>
+      <li><strong>Custom packages:</strong> Available upon request</li>
+    </ul>
+    <p>Email us for a custom quote or large group events.</p>
+  </section>
+
+  <footer>
+    <p><strong>Contact Us:</strong> willspicnics@gmail.com | (270) 555-1234</p>
+    <p>&copy; 2025 Will's Picnic Service. All rights reserved.</p>
+  </footer>
+</body>
+</html>
